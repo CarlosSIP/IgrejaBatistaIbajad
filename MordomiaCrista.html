@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Igreja Batista Ibajad - Mordomia Cristã</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .question {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+    .option {
+      margin-left: 20px;
+    }
+    .correct {
+      color: green;
+      font-weight: bold;
+    }
+    .result {
+      margin-top: 30px;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    #finalizar {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Igreja Batista Ibajad</h1>
+  <h2>Mordomia Cristã</h2>
+
+  <form id="quizForm">
+    <!-- PERGUNTAS -->
+    <div class="question">1. O que significa ser um "mordomo" à luz da Bíblia?</div>
+    <label class="option"><input type="radio" name="q1" value="C"> C) Administrador fiel do que pertence a Deus</label><br>
+    <label class="option"><input type="radio" name="q1" value="A"> A) Alguém que trabalha como servo doméstico</label><br>
+    <label class="option"><input type="radio" name="q1" value="B"> B) Dono dos próprios bens e decisões</label><br>
+    <label class="option"><input type="radio" name="q1" value="D"> D) Pastor ou líder da igreja</label><br>
+
+    <div class="question">2. Qual versículo ensina que tudo pertence a Deus?</div>
+    <label class="option"><input type="radio" name="q2" value="B"> B) Salmo 24:1</label><br>
+    <label class="option"><input type="radio" name="q2" value="A"> A) João 3:16</label><br>
+    <label class="option"><input type="radio" name="q2" value="C"> C) Atos 2:42</label><br>
+    <label class="option"><input type="radio" name="q2" value="D"> D) Filipenses 4:13</label><br>
+
+    <div class="question">3. Segundo a mordomia cristã, como devemos usar nossos bens?</div>
+    <label class="option"><input type="radio" name="q3" value="D"> D) Para glorificar a Deus e ajudar o próximo</label><br>
+    <label class="option"><input type="radio" name="q3" value="A"> A) Para o nosso conforto e sucesso</label><br>
+    <label class="option"><input type="radio" name="q3" value="B"> B) Para impressionar os outros</label><br>
+    <label class="option"><input type="radio" name="q3" value="C"> C) Para investir somente em negócios</label><br>
+
+    <div class="question">4. O que a Bíblia diz sobre o tempo?</div>
+    <label class="option"><input type="radio" name="q4" value="C"> C) Devemos remir o tempo porque os dias são maus</label><br>
+    <label class="option"><input type="radio" name="q4" value="A"> A) O tempo é nosso e podemos usá-lo como quisermos</label><br>
+    <label class="option"><input type="radio" name="q4" value="B"> B) O tempo é uma ilusão</label><br>
+    <label class="option"><input type="radio" name="q4" value="D"> D) Só o tempo de domingo é sagrado</label><br>
+
+    <div class="question">5. O que significa "mordomia dos dons e talentos"?</div>
+    <label class="option"><input type="radio" name="q5" value="D"> D) Servir a Deus e ao próximo com os dons recebidos</label><br>
+    <label class="option"><input type="radio" name="q5" value="A"> A) Guardar os dons para momentos especiais</label><br>
+    <label class="option"><input type="radio" name="q5" value="B"> B) Comparar com os dos outros</label><br>
+    <label class="option"><input type="radio" name="q5" value="C"> C) Usar para benefício próprio</label><br>
+
+    <div class="question">6. Qual é o papel do cristão com relação ao corpo?</div>
+    <label class="option"><input type="radio" name="q6" value="B"> B) Cuidar bem dele, pois é templo do Espírito Santo</label><br>
+    <label class="option"><input type="radio" name="q6" value="A"> A) Usá-lo como quiser</label><br>
+    <label class="option"><input type="radio" name="q6" value="C"> C) Negligenciar</label><br>
+    <label class="option"><input type="radio" name="q6" value="D"> D) Julgar os outros</label><br>
+
+    <div class="question">7. O que é mais verdadeiro sobre a mordomia cristã?</div>
+    <label class="option"><input type="radio" name="q7" value="C"> C) Ser mordomo é reconhecer Deus como dono de tudo</label><br>
+    <label class="option"><input type="radio" name="q7" value="A"> A) É opcional</label><br>
+    <label class="option"><input type="radio" name="q7" value="B"> B) É só dar dízimo</label><br>
+    <label class="option"><input type="radio" name="q7" value="D"> D) É função dos líderes</label><br>
+
+    <!-- NOVAS PERGUNTAS -->
+    <div class="question">8. Qual atitude demonstra melhor a mordomia do tempo?</div>
+    <label class="option"><input type="radio" name="q8" value="C"> C) Organizar prioridades e dedicar tempo a Deus</label><br>
+    <label class="option"><input type="radio" name="q8" value="A"> A) Trabalhar sem descanso</label><br>
+    <label class="option"><input type="radio" name="q8" value="B"> B) Assistir séries o dia todo</label><br>
+    <label class="option"><input type="radio" name="q8" value="D"> D) Esperar as oportunidades aparecerem</label><br>
+
+    <div class="question">9. Qual exemplo bíblico mostra um mordomo fiel?</div>
+    <label class="option"><input type="radio" name="q9" value="A"> A) José no Egito</label><br>
+    <label class="option"><input type="radio" name="q9" value="B"> B) Sansão</label><br>
+    <label class="option"><input type="radio" name="q9" value="C"> C) Ananias e Safira</label><br>
+    <label class="option"><input type="radio" name="q9" value="D"> D) Esaú</label><br>
+
+    <div class="question">10. O que é mais importante: ter ou saber usar o que tem?</div>
+    <label class="option"><input type="radio" name="q10" value="B"> B) Saber usar o que tem com sabedoria e temor</label><br>
+    <label class="option"><input type="radio" name="q10" value="A"> A) Ter muito é sinal de bênção</label><br>
+    <label class="option"><input type="radio" name="q10" value="C"> C) Deus só abençoa quem tem</label><br>
+    <label class="option"><input type="radio" name="q10" value="D"> D) Quem tem mais manda mais</label><br>
+
+    <button type="button" id="finalizar" onclick="finalizarQuiz()">Finalizar</button>
+  </form>
+
+  <div id="resultado" class="result"></div>
+
+  <script>
+    const respostasCertas = {
+      q1: 'C',
+      q2: 'B',
+      q3: 'D',
+      q4: 'C',
+      q5: 'D',
+      q6: 'B',
+      q7: 'C',
+      q8: 'C',
+      q9: 'A',
+      q10: 'B'
+    };
+
+    const inicio = new Date();
+
+    function finalizarQuiz() {
+      const respostas = new FormData(document.getElementById('quizForm'));
+      let acertos = 0;
+
+      for (const [pergunta, resposta] of respostas) {
+        const correta = respostasCertas[pergunta];
+        const radios = document.getElementsByName(pergunta);
+        radios.forEach(r => {
+          if (r.value === correta) {
+            r.parentElement.classList.add("correct");
+          }
+        });
+        if (resposta === correta) acertos++;
+      }
+
+      const fim = new Date();
+      const tempo = Math.round((fim - inicio) / 1000);
+
+      document.getElementById("resultado").innerHTML =
+        `Você acertou ${acertos} de 10 perguntas.<br>Tempo: ${tempo} segundos.`;
+    }
+  </script>
+</body>
+</html>
